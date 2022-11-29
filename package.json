@@ -3,9 +3,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "next": "canary",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
